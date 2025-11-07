@@ -1,0 +1,112 @@
+# ====================================
+# 📦 Node & Package Files
+# ====================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json.backup
+.pnpm-debug.log*
+
+# ====================================
+# ⚙️ Environment Files
+# ====================================
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# (optional) if you keep your own API keys locally
+*.env.*
+
+# ====================================
+# 🧱 Build Output
+# ====================================
+dist/
+build/
+.cache/
+.tmp/
+temp/
+out/
+
+# ====================================
+# 💻 IDE / Editor files
+# ====================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# ====================================
+# 🧪 Testing & Coverage
+# ====================================
+coverage/
+*.lcov
+jest-cache/
+.vitest/
+__snapshots__/
+
+# ====================================
+# 🔧 TypeScript
+# ====================================
+*.tsbuildinfo
+
+# ====================================
+# 🧰 Logs
+# ====================================
+*.log
+*.log.*
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ====================================
+# 🧩 Local runtime / misc
+# ====================================
+*.local
+*.pid
+*.pid.lock
+*.seed
+*.bak
+*.old
+*.tmp
+*.swp
+
+# ====================================
+# 🔍 Misc
+# ====================================
+*.tgz
+*.zip
+*.tar
+*.gz
+
+# ====================================
+# 📦 OS Specific
+# ====================================
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ====================================
+# 🧠 Generated Reports / Visualizers
+# ====================================
+dist/report.html
+analyze/
+stats.html
+
+# ====================================
+# 🔒 Lockfiles (optional)
+# (Uncomment if you prefer to ignore them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
